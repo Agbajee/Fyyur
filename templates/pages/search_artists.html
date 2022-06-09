@@ -9,6 +9,8 @@
 			<i class="fas fa-users"></i>
 			<div class="item">
 				<h5>{{ artist.name }}</h5>
+				<!-- I noticed the number of upcoming shows is in the controller but not in the Template so I decided to add it -->
+				<p>{{artist.num_upcoming_shows}}: show(s) upcoming</p>
 			</div>
 		</a>
 	</li>
